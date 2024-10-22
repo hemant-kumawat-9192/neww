@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.bgimageset {
+    background-image: url(../img/7fcad7fd-4722-4401-a879-52779a61584a.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}
+
+.imgset2 img {
+    width: 300px;
+    height: 110px;
+}
+
+.setbtn {
+    font-weight: 900;
+    border-radius: 25px;
+    border: 1px solid yellow;
+    padding: 10px 30px;
+    background-color: yellow;
+    text-transform: uppercase;
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+.fontset {
+    color: #fff;
+    text-transform: uppercase;
+    margin: 10px 0;
+    font-size: 22px;
+}
+
+.imgset1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.mycustomescrollmain {
+    overflow-x: auto;
+}
+
+.mycustomescroll {
+    width: 1300px !important;
+
+}
+
+.imgset1 img {
+    width: 380px;
+    height: 130px;
+}
+
+.fontset2 {
+
+    background-color: rgb(1, 148, 1);
+
+}
+
+.fdf {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    font-weight: 500;
+    color: #ffff;
+    text-transform: uppercase;
+    margin: 10px 0;
+    font-size: 22px;
+    animation: hemant 1.5s infinite;
+    transition: all ease-in-out .5s;
+}
+
+.fdf img {
+    width: 40px;
+    height: 40px;
+}
+
+@keyframes hemant {
+    0% {
+        background-position: 0% 50%;
+        transform: skewY(2deg);
+    }
+
+    50% {
+        background-position: 100% 50%;
+        transform: skewY(-2deg);
+    }
+
+    100% {
+        background-position: 0% 50%;
+        transform: skewY(2deg);
+    }
+
+}
+
+.setbtn2 {
+    padding-top: 300px;
+}
+
+@media (max-width:992.99px) {
+    .bgimageset {
+        background-image: url(../img/empty-modern-football-stadium-blue-sky-green-grass-field-sports-banner-background-advertising-poster-design-323413465.webp);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: bottom center;
+    }
+
+    .setbtn2 {
+        padding-top: 100px;
+    }
+
+    .fdf {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        font-weight: 500;
+        color: #ffff;
+        text-transform: uppercase;
+        margin: 10px 0;
+        font-size: 18px;
+        animation: hemant 2s infinite;
+        transition: all ease-in-out .5s;
+    }
+
+    .fdf img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .imgset1 img {
+        width: 300px;
+        height: 110px;
+    }
+}
